@@ -23,8 +23,8 @@ Supported License Servers:
 
 config.php:
 -----------
-$server[] = array("hostname"=>"port@flexlm.example.com","desc"=>"flexlm stuff","type"=>"flexlm","cacti"=>"0000");
-$server[] = array("hostname"=>"port@rlm.example.com","desc"=>"rlm stuff","type"=>"rlm","webui"=>"http://rlm.example.com:port");
+    $server[] = array("hostname"=>"port@flexlm.example.com","desc"=>"flexlm stuff","type"=>"flexlm","cacti"=>"0000");
+    $server[] = array("hostname"=>"port@rlm.example.com","desc"=>"rlm stuff","type"=>"rlm","webui"=>"http://rlm.example.com:port");
 
 
 see README for more details
